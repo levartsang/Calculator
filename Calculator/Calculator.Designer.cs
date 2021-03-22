@@ -58,7 +58,7 @@
             this.button_point = new System.Windows.Forms.Button();
             this.button_0 = new System.Windows.Forms.Button();
             this.button_result = new System.Windows.Forms.Button();
-            this.button22 = new System.Windows.Forms.Button();
+            this.button_sub = new System.Windows.Forms.Button();
             this.button_9 = new System.Windows.Forms.Button();
             this.button_8 = new System.Windows.Forms.Button();
             this.button_7 = new System.Windows.Forms.Button();
@@ -356,15 +356,16 @@
             this.button_result.UseVisualStyleBackColor = true;
             this.button_result.Click += new System.EventHandler(this.button_result_Click);
             // 
-            // button22
+            // button_sub
             // 
-            this.button22.Font = new System.Drawing.Font("宋体", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.button22.Location = new System.Drawing.Point(180, 249);
-            this.button22.Name = "button22";
-            this.button22.Size = new System.Drawing.Size(50, 27);
-            this.button22.TabIndex = 25;
-            this.button22.Text = "-";
-            this.button22.UseVisualStyleBackColor = true;
+            this.button_sub.Font = new System.Drawing.Font("宋体", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.button_sub.Location = new System.Drawing.Point(180, 249);
+            this.button_sub.Name = "button_sub";
+            this.button_sub.Size = new System.Drawing.Size(50, 27);
+            this.button_sub.TabIndex = 25;
+            this.button_sub.Text = "-";
+            this.button_sub.UseVisualStyleBackColor = true;
+            this.button_sub.Click += new System.EventHandler(this.button_sub_Click);
             // 
             // button_9
             // 
@@ -475,7 +476,7 @@
             this.panel1.Size = new System.Drawing.Size(273, 65);
             this.panel1.TabIndex = 31;
             // 
-            // Form1
+            // Calculator
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -485,7 +486,7 @@
             this.Controls.Add(this.button_point);
             this.Controls.Add(this.button_0);
             this.Controls.Add(this.button_result);
-            this.Controls.Add(this.button22);
+            this.Controls.Add(this.button_sub);
             this.Controls.Add(this.button_9);
             this.Controls.Add(this.button_8);
             this.Controls.Add(this.button_7);
@@ -513,7 +514,7 @@
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.MainMenuStrip = this.menuStrip1;
             this.MaximizeBox = false;
-            this.Name = "Form1";
+            this.Name = "Calculator";
             this.Text = "Form1";
             this.Load += new System.EventHandler(this.Form1_Load);
             this.menuStrip1.ResumeLayout(false);
@@ -548,7 +549,7 @@
         private System.Windows.Forms.Button button_point;
         private System.Windows.Forms.Button button_0;
         private System.Windows.Forms.Button button_result;
-        private System.Windows.Forms.Button button22;
+        private System.Windows.Forms.Button button_sub;
         private System.Windows.Forms.Button button_9;
         private System.Windows.Forms.Button button_8;
         private System.Windows.Forms.Button button_7;

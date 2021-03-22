@@ -313,12 +313,17 @@ namespace Calculator
         {
            return getOperatorObject(operator_).GetResult(Double.Parse(A),Double.Parse(B)).ToString();
         }
+
+        private void button_sub_Click(object sender, EventArgs e)
+        {
+            // visual studio 2015 提交 测试
+        }
     }
 
-   /**
-    * 操作符抽象
-    * 
-    * **/
+    /**
+     * 操作符抽象
+     * 
+     * **/
     public abstract class Tools
     {
         public abstract double GetResult(double A, double B);
